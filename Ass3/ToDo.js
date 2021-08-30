@@ -3,7 +3,7 @@ let input = document.getElementById("myInput");
 let date= document.getElementById("date");
 let list = document.getElementById("list");
 
-let to_do_list =[],ind=0;
+let to_do_list =[];
 
 let setting = {weekday:"long",month:"short",day:"numeric"}
 let today = new Date();
@@ -22,6 +22,8 @@ function newElement()
     let txt=input.value;
     if(txt)
         addToDo(txt)
+	else
+		alert("You must write something!");
     input.value="";
 }
 
@@ -62,6 +64,8 @@ document.addEventListener("keyup",function(){
         let txt=input.value;
         if(txt)
             addToDo(txt)
+		else
+			alert("You must write something!");
         input.value="";
     }
 
