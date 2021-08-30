@@ -1,5 +1,11 @@
+body {
+  background-color: #e8a87c;
+}
+
+
 * {
     box-sizing: border-box;
+	
   }
 
 .header {
