@@ -1,0 +1,13 @@
+.card{
+    background-color: #141414 !important;
+    color: cornflowerblue !important;
+}
+.margin-left{
+    margin-left: 15px !important;
+}
+.image-container{
+    transition: transform 0.2s;
+}
+.image-container:hover{
+    transform: scale(1.1);
+}
